@@ -1,0 +1,84 @@
+h1 {
+  background-color: yellow;
+  color: greenyellow;
+}
+
+h2 {
+  color: lawngreen;
+}
+h2 {
+  text-align: center;
+}
+h2:before, h2:after {
+  font-family: serif;
+  content: "\00d7";
+  color: #c83f3f;
+}
+h2:before {
+  margin-right: 10px;
+}
+h2:after {
+  margin-left: 10px;
+}
+
+h3 {
+  color: violet;
+}
+
+body {
+  background-color: cyan;
+  color: blue;
+  font-family: cursive;
+}
+
+.fit-picture {
+  float: right;
+  padding: 0 410px 0 0;
+}
+
+.center {
+  float: none;
+  padding: 10px 0 10px 445px;
+}
+
+aside {
+  width: 50%;
+  padding-left: .5rem;
+  margin-left: .5rem;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px #29627e;
+  font-style: italic;
+  color: #29627e;
+}
+
+aside > p {
+  margin: .5rem;
+}
+
+.spicy::after {
+  content: ' if you\'re spicy!';
+  color: red;
+}
+
+body:before, body:after {
+  content:"";
+  position: fixed;
+  background: #900;
+  left: 0;
+  right: 0;
+  height: 10px;
+}
+body:before {
+  top: 0;
+}
+body:after {
+  bottom: 0;
+}
+body {
+  border-left: 10px solid #900;
+  border-right: 10px solid #900;
+}
+
+.small {
+  padding: 0 0 7px 0;
+}
